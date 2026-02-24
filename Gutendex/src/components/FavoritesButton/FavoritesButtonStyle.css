@@ -1,0 +1,8 @@
+.favorite-btn {
+  padding: 6px 10px;
+  border: none;
+  background: crimson;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

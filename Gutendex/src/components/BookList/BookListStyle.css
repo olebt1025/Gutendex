@@ -1,0 +1,19 @@
+.book-list {
+  list-style: none;
+  padding: 20px;
+}
+
+.book-item {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.book-title-link {
+  text-decoration: none;
+  color: #222; /* or any color you want */
+}
+
+.book-title-link:hover h3 {
+  color: #4cafef;
+  text-decoration: underline;
+}

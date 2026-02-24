@@ -1,0 +1,11 @@
+.category-container {
+  padding: 10px 30px;
+}
+
+.category-dropdown {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  cursor: pointer;
+}

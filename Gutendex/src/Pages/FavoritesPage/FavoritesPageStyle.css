@@ -1,0 +1,25 @@
+.favorites-container {
+  padding: 20px;
+}
+
+.favorites-list {
+  list-style: none;
+  padding: 0;
+}
+
+.favorite-item {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-favorite-btn {
+  padding: 6px 10px;
+  border: none;
+  background: crimson;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
