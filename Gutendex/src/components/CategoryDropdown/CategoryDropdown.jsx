@@ -25,7 +25,7 @@ function CategoryDropdown({ onCategorySelect }) {
         defaultValue=""
       >
         <option value="" disabled>
-          Select category
+          Kategori
         </option>
 
         {categories.map((cat) => (

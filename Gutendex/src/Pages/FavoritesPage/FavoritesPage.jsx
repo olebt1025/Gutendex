@@ -24,7 +24,7 @@ function FavoritesPage() {
       <div className="favorites-container">
         <h2>Dine favoritter</h2>
 
-        {favorites.length === 0 && <p>No favorites yet.</p>}
+        {favorites.length === 0 && <p>Ingen favoritter enda.</p>}
 
         <ul className="favorites-list">
           {favorites.map((book) => (

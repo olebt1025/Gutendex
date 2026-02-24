@@ -24,7 +24,7 @@ function HomePage() {
 
   useEffect(() => {
     fetchBooks(currentUrl);
-  }, []);
+  }, [currentUrl]);
 
   const handleSearch = (query) => {
     fetchBooks(`https://gutendex.com/books?search=${query}`);

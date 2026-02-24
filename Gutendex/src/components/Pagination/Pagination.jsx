@@ -7,14 +7,14 @@ function Pagination({ next, previous, onPageChange }) {
         disabled={!previous}
         onClick={() => onPageChange(previous)}
       >
-        Previous
+        Forrige
       </button>
 
       <button
         disabled={!next}
         onClick={() => onPageChange(next)}
       >
-        Next
+        Neste
       </button>
     </div>
   );

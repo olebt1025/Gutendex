@@ -71,7 +71,7 @@ function BookDetailPage() {
         <FavoritesButton book={book} />
 
         <Link to="/" className="back-link">
-          ← Tilbake
+           Tilbake
         </Link>
       </div>
     </>
