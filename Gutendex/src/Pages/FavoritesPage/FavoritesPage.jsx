@@ -5,13 +5,12 @@ import "./FavoritesPageStyle.css";
 function FavoritesPage() {
   const [favorites, setFavorites] = useState([]);
 
-  // Load favorites from localStorage
   useEffect(() => {
     const stored = JSON.parse(localStorage.getItem("favorites")) || [];
     setFavorites(stored);
   }, []);
 
-  // Remove a book from favorites
+  
   const removeFavorite = (bookId) => {
     const updated = favorites.filter((b) => b.id !== bookId);
     setFavorites(updated);
@@ -23,7 +22,7 @@ function FavoritesPage() {
       <Header />
 
       <div className="favorites-container">
-        <h2>Your Favorite Books</h2>
+        <h2>Dine favoritter</h2>
 
         {favorites.length === 0 && <p>No favorites yet.</p>}
 
@@ -36,7 +35,7 @@ function FavoritesPage() {
                 className="remove-favorite-btn"
                 onClick={() => removeFavorite(book.id)}
               >
-                ❌ Remove
+                ❌ Fjern
               </button>
             </li>
           ))}

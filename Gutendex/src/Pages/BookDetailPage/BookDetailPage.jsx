@@ -17,13 +17,13 @@ function BookDetailPage() {
 
   if (!book) return <p>Loading...</p>;
 
-  // Get first cover image if available
+  
   const coverImage =
     book.formats["image/jpeg"] ||
     book.formats["image/png"] ||
     null;
 
-  // Get first digital format link
+  
   const digitalLink =
     book.formats["application/pdf"] ||
     book.formats["text/html; charset=utf-8"] ||
@@ -71,7 +71,7 @@ function BookDetailPage() {
         <FavoritesButton book={book} />
 
         <Link to="/" className="back-link">
-          ← Back
+          ← Tilbake
         </Link>
       </div>
     </>

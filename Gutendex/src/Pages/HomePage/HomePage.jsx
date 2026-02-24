@@ -26,12 +26,10 @@ function HomePage() {
     fetchBooks(currentUrl);
   }, []);
 
-  // Search books
   const handleSearch = (query) => {
     fetchBooks(`https://gutendex.com/books?search=${query}`);
   };
 
-  // Filter by category
   const handleCategory = (category) => {
     fetchBooks(`https://gutendex.com/books?topic=${category}`);
   };

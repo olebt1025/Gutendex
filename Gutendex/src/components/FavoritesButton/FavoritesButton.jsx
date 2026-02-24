@@ -13,7 +13,7 @@ function FavoritesButton({ book }) {
 
   return (
     <button className="favorite-btn" onClick={addFavorite}>
-      ❤️ Favorite
+      ❤️ Favoritt
     </button>
   );
 }

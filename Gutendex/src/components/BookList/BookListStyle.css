@@ -10,7 +10,7 @@
 
 .book-title-link {
   text-decoration: none;
-  color: #222; /* or any color you want */
+  color: #222; 
 }
 
 .book-title-link:hover h3 {

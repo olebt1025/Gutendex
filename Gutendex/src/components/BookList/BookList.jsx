@@ -7,7 +7,7 @@ function BookList({ books }) {
     <ul className="book-list">
       {books.map((book) => (
         <li key={book.id} className="book-item">
-          {/* Wrap the title in a Link to detail page */}
+      
           <Link to={`/book/${book.id}`} className="book-title-link">
             <h3>{book.title}</h3>
           </Link>
